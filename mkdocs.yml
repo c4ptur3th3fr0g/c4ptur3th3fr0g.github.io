@@ -1,4 +1,16 @@
-site_name: Capture the Frog - Reference
-site_url: https://example.com
+site_name: C4ptur3Th3Fr0g
+site_url: https://c4ptur3th3fr0g.github.io/
+repo_url: https://github.com/c4ptur3th3fr0g/c4ptur3th3fr0g.github.io
 theme:
     name: material
+    palette:
+        primary: green
+        accent: light green
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
