@@ -2,22 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://c4ptur3th3fr0g.github.io/</loc>
-         <lastmod>2024-08-13</lastmod>
+         <lastmod>2024-08-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://c4ptur3th3fr0g.github.io/tools/</loc>
-         <lastmod>2024-08-13</lastmod>
+         <lastmod>2024-08-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://c4ptur3th3fr0g.github.io/write-ups/Google%20CTF%202024/mine-the-gap/</loc>
-         <lastmod>2024-08-13</lastmod>
+         <lastmod>2024-08-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://c4ptur3th3fr0g.github.io/write-ups/Google%20CTF%202024/write-flag-where/</loc>
-         <lastmod>2024-08-13</lastmod>
+         <lastmod>2024-08-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://c4ptur3th3fr0g.github.io/write-ups/HTB/screen-crack/</loc>
+         <lastmod>2024-08-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
