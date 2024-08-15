@@ -21,7 +21,7 @@ We have a **Laravel 10.6.2** application runing which homepage said:
 
 **Users can view screenshots and the source code of any entered URL using the free web service ScreenCrack. To protect user privacy, our service deletes all screenshots and source files. Our primary goal is to protect users from malicious, shady, and fraudulent links.**
 
-![](../../images/HTB/screen-crack/homepage.png)
+![](../../images/screen-crack-1.png)
 
 We can pass an URL. Let's take a look what we can do with it.
 
@@ -43,7 +43,7 @@ public function deleteFile()
 
 In local we can see the uuids removed by the job.
 
-![](../../images/HTB/screen-crack/halo_content.png)
+![](../../images/screen-crack-2.png)
 
 **Important:** All URLs are validated before send the request, so local URL aren't permited.
 
@@ -56,7 +56,7 @@ I tried using HackTricks urls to bypass localhost but nothing helps.
 After a while I found that some public domains resolves to 127.0.0.1 [Available Public Wildcard DNS Domains pointing to localhost (127.0.0.1)](https://gist.github.com/tinogomes/c425aa2a56d289f16a1f4fcb8a65ea65).
 And using `fbi.com` as domain we get access to local application.
 
-![](../../images/HTB/screen-crack/local_bypass.png)
+![](../../images/screen-crack-3.png)
 
 Let's try to communicate with Redis service.
 
@@ -99,7 +99,7 @@ Looking in the official forum discussion someone says that we need to use the Re
 
 🤔 What if we change the uuid value to made a RCE excecution when app excetute `echo` command that we see previously. And yes, it worked.
 
-![](../../images/HTB/screen-crack/rce.png)
+![](../../images/screen-crack-4.png)
 
 So, let's try to read the content of the flag exposed in a public directory, using the code `;mv /flag /www/public/src/flag.txt;echo` we can archieve it.
 
