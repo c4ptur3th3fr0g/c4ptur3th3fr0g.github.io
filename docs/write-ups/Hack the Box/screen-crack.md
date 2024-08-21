@@ -1,17 +1,15 @@
 ---
 tags:
-  - Web
+  - web
 ---
 
-# ScreenCrack 
-
-[![Medium](https://img.shields.io/badge/Medium-FF9E0F?style=for-the-badge&logoColor=#FF9E0F)](https://squidfunk.github.io/mkdocs-material/)
+# ScreenCrack
 
 ## Challenge description
 
 New screenshot service just dropped! They talk alot but can they hack it?
 
----
+## Solution
 
 ### First recon
 

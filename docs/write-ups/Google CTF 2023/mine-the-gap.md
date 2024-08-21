@@ -1,3 +1,10 @@
+---
+tags:
+  - misc
+  - game
+  - z3
+---
+
 # Mine the gap
 
 You are given a script `minesweeper.py`, and a text file, `gameboard.txt`. Invoking the python script requires `pygame` to be installed.
@@ -19,7 +26,7 @@ We see this part of the code:
             bit = 1 if validate_grid[23][x].state in [10, 11] else 0
             bits.append(bit)
         flag = hashlib.sha256(bytes(bits)).hexdigest()
-        print(f'Flag: CTF{{{flag}}}')
+        print(f'Flag: CTF{% raw %}{{{flag}}}{% endraw %}')
 
     else:
         print(violations)

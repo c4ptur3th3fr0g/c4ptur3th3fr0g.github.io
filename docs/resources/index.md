@@ -1,18 +1,20 @@
-# Tools
+# Resources
 
 ## Decompiler
 
--   Ghidra
+So far all our experience is with [Ghidra](https://www.ghidra-sre.org/).
+
+Other decompilers:
+
 -   IDA Pro
 -   Radare2
 -   Binary Ninja
 
-So far all our experience is with Ghidra.
 
 ## Debugger
 
 -   GDB
--   Pwngdb
+-   [Pwngdb](https://github.com/pwndbg/pwndbg)
 
 ## Misc
 
@@ -20,7 +22,7 @@ So far all our experience is with Ghidra.
 -   Find md5 collisions:
     -   https://github.com/cr-marcstevens/hashclash
     -   Example problem: https://github.com/google/google-ctf/tree/main/2024/quals/misc-pycalc
--   Z3 (Sat solver)
+-   [Z3](https://github.com/Z3Prover/z3) (Sat solver)
 
 ## Crypto
 
@@ -28,6 +30,6 @@ So far all our experience is with Ghidra.
 - [dCode](https://www.dcode.fr/en)
 - [CrackStation](https://crackstation.net/)
 
-## General purpose
+## Learning
 
 - [HackTricks](https://book.hacktricks.xyz/)

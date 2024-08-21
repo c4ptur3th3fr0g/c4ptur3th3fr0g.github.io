@@ -1,11 +1,25 @@
 site_name: C4ptur3Th3Fr0g
 site_url: https://c4ptur3th3fr0g.github.io/
+site_author: C4ptur3 Th3 Fr0g Team
 repo_url: https://github.com/c4ptur3th3fr0g/c4ptur3th3fr0g.github.io
+
 theme:
-    name: material
-    palette:
-        primary: green
-        accent: light green
+  name: material
+
+  palette:
+    primary: green
+    accent: light green
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - content.code.copy
+    - content.code.select
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -14,5 +28,21 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - docs/overrides/.icons
+
 plugins:
-  - tags
+  - tags:
+      tags_file: C4ptur3Th3Fr0g/tags.md
+  - search
+  - offline
+  - macros

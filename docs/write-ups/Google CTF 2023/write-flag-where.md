@@ -1,3 +1,8 @@
+---
+tags:
+  - rev
+---
+
 # Write flag where
 
 This challenges had three parts with increasing difficulty. During competition we solved up to part 2. The solution to part 2 uses a very nice trick that was not the intended solution.
