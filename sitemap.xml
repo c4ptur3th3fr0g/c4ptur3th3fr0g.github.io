@@ -1,28 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://c4ptur3th3fr0g.github.io/</loc>
-         <lastmod>2024-08-15</lastmod>
+         <loc>https://c4ptur3th3fr0g.github.io/C4ptur3Th3Fr0g/index.html</loc>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://c4ptur3th3fr0g.github.io/tools/</loc>
-         <lastmod>2024-08-15</lastmod>
+         <loc>https://c4ptur3th3fr0g.github.io/resources/index.html</loc>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://c4ptur3th3fr0g.github.io/write-ups/Google%20CTF%202024/mine-the-gap/</loc>
-         <lastmod>2024-08-15</lastmod>
+         <loc>https://c4ptur3th3fr0g.github.io/write-ups/index.html</loc>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://c4ptur3th3fr0g.github.io/write-ups/Google%20CTF%202024/write-flag-where/</loc>
-         <lastmod>2024-08-15</lastmod>
+         <loc>https://c4ptur3th3fr0g.github.io/write-ups/Google%20CTF%202023/index.html</loc>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://c4ptur3th3fr0g.github.io/write-ups/HTB/screen-crack/</loc>
-         <lastmod>2024-08-15</lastmod>
+         <loc>https://c4ptur3th3fr0g.github.io/write-ups/Google%20CTF%202023/mine-the-gap.html</loc>
+         <lastmod>2024-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://c4ptur3th3fr0g.github.io/write-ups/Google%20CTF%202023/write-flag-where.html</loc>
+         <lastmod>2024-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://c4ptur3th3fr0g.github.io/write-ups/Google%20CTF%202024/index.html</loc>
+         <lastmod>2024-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://c4ptur3th3fr0g.github.io/write-ups/Hack%20the%20Box/index.html</loc>
+         <lastmod>2024-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://c4ptur3th3fr0g.github.io/write-ups/Hack%20the%20Box/screen-crack.html</loc>
+         <lastmod>2024-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://c4ptur3th3fr0g.github.io/write-ups/Idek%20CTF%202024/index.html</loc>
+         <lastmod>2024-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://c4ptur3th3fr0g.github.io/C4ptur3Th3Fr0g/tags.html</loc>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
