@@ -49,3 +49,8 @@ plugins:
   - redirects:
       redirect_maps:
         "index.md": "C4ptur3Th3Fr0g/index.md"
+
+extra:
+  analytics:
+    provider: google
+    property: G-L6NR81TWR6
