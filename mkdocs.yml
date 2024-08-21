@@ -46,3 +46,6 @@ plugins:
   - search
   - offline
   - macros
+  - redirects:
+      redirect_maps:
+        "index.md": "C4ptur3Th3Fr0g/index.md"
