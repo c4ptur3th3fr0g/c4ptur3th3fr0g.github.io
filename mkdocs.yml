@@ -39,6 +39,8 @@ markdown_extensions:
       options:
         custom_icons:
           - docs/overrides/.icons
+  - admonition
+  - pymdownx.details
 
 plugins:
   - tags:
