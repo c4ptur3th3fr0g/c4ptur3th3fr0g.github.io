@@ -43,14 +43,15 @@ markdown_extensions:
   - pymdownx.details
 
 plugins:
+  - awesome-pages
   - tags:
-      tags_file: C4ptur3Th3Fr0g/tags.md
+      tags_file: main/tags.md
   - search
   - offline
   - macros
   - redirects:
       redirect_maps:
-        "index.md": "C4ptur3Th3Fr0g/index.md"
+        "index.md": "main/index.md"
 
 extra:
   analytics:
